@@ -129,3 +129,10 @@ python3.9 -m venv "my_env_name"
 # downloading specific version
 python3.9 -m pip download --only-binary :all: --dest ./to39 --no-cache torch  
 torch is the name of the package, and the python3.9 makes sure its for version 3.9 of python, to39 is the directory
+
+# run
+python3.8 -m venv venv
+source ./venv/bin/activate
+pip install ./torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl
+pip install ./torchvision-0.16.0a0+657027f-cp38-cp38-linux_aarch64.whl
+bash webui.sh
