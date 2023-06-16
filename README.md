@@ -1,8 +1,6 @@
 # Modified webui-user.sh and webui.sh to make this work for jetson agx orin
 Changed user setting to use local pytorch install that works for nvidia jetson agx orin  
 
-I removed torchvision but did not replace it with anything and I think I may regret that.
-
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048/13  
 
 # specific version of torch that was build for jetson nano  
